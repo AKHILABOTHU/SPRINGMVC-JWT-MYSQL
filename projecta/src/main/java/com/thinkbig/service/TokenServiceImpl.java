@@ -31,9 +31,7 @@ public class TokenServiceImpl implements TokenService{
 	    Algorithm algorithm = Algorithm.HMAC256(env.getProperty("secret_key"));
 		String token = JWT.create()
 				.withJWTId(user.getId()+"")
-				.withSubject(user.getEmail())
-				.withClaim("dob", user.getDob())
-		        .withIssuer("coco")
+		        .withIssuer("thinkbig")
 		        .withIssuedAt(now)
 		        .withExpiresAt(new Date(nowMillis+TIME_TO_LIVE_MILLI_SECONDS))
 		        .withArrayClaim("roles", new String[] { UserRoles.USER})
@@ -50,9 +48,7 @@ public class TokenServiceImpl implements TokenService{
 
 	    Algorithm algorithm = Algorithm.HMAC256(env.getProperty("secret_key"));
 		String token = JWT.create()
-				.withJWTId(user.getId()+"")
-				.withSubject(user.getEmail())
-		        .withIssuer("coco")
+		        .withIssuer("thinkbig")
 		        .withIssuedAt(now)
 		        .withExpiresAt(new Date(nowMillis+86400000L*15))
 		        .withArrayClaim("roles", new String[] { UserRoles.USER})

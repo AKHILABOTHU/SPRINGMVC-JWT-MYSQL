@@ -8,7 +8,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import javax.transaction.Transactional;
 
-import org.hibernate.Query;
+import org.hibernate.query.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.json.JSONObject;
@@ -37,6 +37,7 @@ public class UserDAOImpl implements UserDAO {
 	}
 
 	@Override
+	@Transactional
 	public JSONObject fetchUserId(User user, String password, String rememberMe, HttpServletResponse response) {
 		// TODO Auto-generated method stub
 		// Holds user information

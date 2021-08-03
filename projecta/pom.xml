@@ -164,7 +164,7 @@
     </dependency>
     
    <!--  <dependency>
-    <groupId>com.coco.dock.aws-services</groupId>
+    <groupId>com.thinkbig.dock.aws-services</groupId>
 		<artifactId>services</artifactId>
 		<version>1.0.0</version>
     </dependency> -->
