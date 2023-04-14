@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
  <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<springframework.version>5.0.7.RELEASE</springframework.version>
+		<springframework.version>5.2.24.RELEASE</springframework.version>
 		<springsecurity.version>5.0.6.RELEASE</springsecurity.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -160,7 +160,7 @@
 			 <dependency>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk</artifactId>
-        <version>1.12.157</version>
+        <version>1.12.449</version>
     </dependency>
     
    <!--  <dependency>
