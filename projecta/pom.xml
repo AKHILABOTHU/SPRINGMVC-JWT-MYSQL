@@ -105,7 +105,7 @@
 		<dependency>
 			<groupId>com.auth0</groupId>
 			<artifactId>java-jwt</artifactId>
-			<version>3.4.0</version>
+			<version>3.8.3</version>
 		</dependency>
 
 		<!-- JUNIT -->
@@ -160,7 +160,7 @@
 			 <dependency>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk</artifactId>
-        <version>1.12.157</version>
+        <version>1.12.462</version>
     </dependency>
     
    <!--  <dependency>
