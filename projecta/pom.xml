@@ -133,7 +133,7 @@
 		<dependency>
 			<groupId>com.google.firebase</groupId>
 			<artifactId>firebase-admin</artifactId>
-			<version>6.6.0</version>
+			<version>9.2.0</version>
 		</dependency>
 		
 			<!-- https://mvnrepository.com/artifact/com.sun.mail/smtp -->
@@ -160,7 +160,7 @@
 			 <dependency>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk</artifactId>
-        <version>1.12.157</version>
+        <version>1.12.495</version>
     </dependency>
     
    <!--  <dependency>
